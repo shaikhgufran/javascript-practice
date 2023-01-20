@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>my  first web page.</h1>
+    <p>my second paragraph.</p>
+
+    <p id="demo"></p>
+    <p class="demoClass"></p>
+    ,<button onclick="document.write('new page')">try now</button>
+    <!--data display viva innerHTML-->
+    <script>
+        document.querySelector("demo").innerHTML = 5 + 6;
+        document.querySelector(".demoClass").innerHTML=
+        "this is viva quary selector funtion with class name"
+    </script>
+   <!---- data display viva document write funtion--only used for testing purpses-->
+    <script>
+        document.write("this text is form write");
+        </script>
+     <!--data displayed viva windo object alert funtion-->
+        <script>
+       window.alert("pleas confirm  your information");
+    </script>
+<!--data display in the console this is mostly used for code debugging -->
+    <script>
+        console.log("this is my first consol log", document);
+    </script>
+</body>
+</html>
